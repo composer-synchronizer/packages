@@ -1,0 +1,2 @@
+# packages
+Composer synchronizer packages
