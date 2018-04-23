@@ -1,0 +1,6 @@
+extensions:
+    webloader: WebLoader\Bridges\Nette\WebLoaderExtension
+
+webloader:
+	pathsPlaceholders:
+	filesCollections:
