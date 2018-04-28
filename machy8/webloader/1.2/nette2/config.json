@@ -1,7 +1,7 @@
 {
     "resources": {
         "webloader.neon": "%configDir%/webloader/",
-        "webtemp/": "%wwwDir%/"
+        "webtemp/": "%wwwDir%/webtemp/"
     },
     "includes": [
         "webloader/webloader.neon"
