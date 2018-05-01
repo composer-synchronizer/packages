@@ -1,6 +1,7 @@
 {
     "resources": {
-        "nettrine/": "%configDir%/nettrine/"
+        "nettrine/": "%configDir%/nettrine/",
+        "migrations/": "%projectDir%/migrations/"
     },
     "includes": [
         "nettrine/migrations.neon"
