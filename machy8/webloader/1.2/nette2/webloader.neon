@@ -2,5 +2,6 @@ extensions:
     webloader: WebLoader\Bridges\Nette\WebLoaderExtension
 
 webloader:
+	outputDir: %wwwDir%/webtemp
 	pathsPlaceholders:
 	filesCollections:
