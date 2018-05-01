@@ -1,0 +1,12 @@
+extensions:
+	orm: Nettrine\ORM\DI\OrmExtension
+	# orm.cache: Nettrine\ORM\DI\OrmCacheExtension
+	orm.console: Nettrine\ORM\DI\OrmConsoleExtension
+	orm.annotations: Nettrine\ORM\DI\OrmAnnotationsExtension
+
+orm.annotations:
+	paths:
+		- app/model/Entity
+	ignore: [] # ignored annotations
+	cache: Doctrine\Common\Cache\FilesystemCache
+	cacheDir: '%tempDir%/cache/Doctrine.Annotations'
