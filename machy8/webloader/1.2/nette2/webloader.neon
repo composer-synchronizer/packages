@@ -3,5 +3,6 @@ extensions:
 
 webloader:
 	outputDir: %wwwDir%/webtemp
+	documentRoot: %wwwDir%
 	pathsPlaceholders:
 	filesCollections:
