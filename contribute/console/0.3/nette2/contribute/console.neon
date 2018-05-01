@@ -1,0 +1,11 @@
+extensions:
+	console: Contributte\Console\DI\ConsoleExtension
+
+console:
+	name: Project name
+	version: 1.0
+	catchExceptions: true
+	autoExit: true
+	lazy: false
+	helpers:
+		- Contributte\Console\Helper\ContainerHelper
