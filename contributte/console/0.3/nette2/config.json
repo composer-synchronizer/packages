@@ -1,6 +1,7 @@
 {
     "resources": {
-        "contributte/": "%configDir%/contributte/"
+        "contributte/": "%configDir%/contributte/",
+        "bin/": "bin/"
     },
     "includes": [
         "contributte/console.neon"
