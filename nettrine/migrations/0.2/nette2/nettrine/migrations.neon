@@ -1,0 +1,9 @@
+extensions:
+    migrations: Nettrine\Migrations\DI\MigrationsExtension
+
+migrations:
+    table: doctrine_migrations
+    column: version
+    directory: %appDir%/../migrations
+    namespace: Migrations
+    versionsOrganization: null # null, year, year_and_month

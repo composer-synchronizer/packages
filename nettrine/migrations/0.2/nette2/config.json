@@ -1,0 +1,8 @@
+{
+    "resources": {
+        "nettrine/": "%configDir%/nettrine/"
+    },
+    "includes": [
+        "nettrine/migrations.neon"
+    ]
+}
