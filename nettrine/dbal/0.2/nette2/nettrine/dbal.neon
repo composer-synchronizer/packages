@@ -1,0 +1,11 @@
+extensions:
+	dbal: Nettrine\DBAL\DI\DbalExtension
+	dbal.console: Nettrine\DBAL\DI\DbalConsoleExtension
+
+dbal:
+    connection:
+        host: localhost
+        user: root
+        password: root
+        dbname: databasename
+        #driver: pdo_pgsql
