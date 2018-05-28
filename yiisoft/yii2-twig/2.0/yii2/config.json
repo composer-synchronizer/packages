@@ -1,6 +1,6 @@
 {
     "resources": {
-        "twig/": "%configDir%/twig"
+        "twig/": "%configDir%/twig/"
     },
     "configs": {
         "twig": "twig/twig.php"
