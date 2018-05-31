@@ -1,0 +1,11 @@
+{
+    "resources": {
+        "elastic-search/": "%configDir%/elastic-search/"
+    },
+    "configs": [
+        "elastic-search/config.php"
+    ],
+    "plugins": [
+        "elastic-search/plugin.php"
+    ]
+}
