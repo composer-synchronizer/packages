@@ -6,8 +6,8 @@ composer-synchronizer into the package and you want to use them anyway.
 ## Adding packages
 - Create a package directory in the following structure
 `<package name>/<version>/<synchronizer versioned name>` (some/package/1.0/nette2)
-- Package will be then searched and downloaded
-from https://github.com/composer-synchronizer/packages/blob/master/some/package/1.0/nette2
+- The package configuration file will be then downloaded from
+https://raw.githubusercontent.com/composer-synchronizer/packages/master/some/package/1.0/nette2/config.json.
 
 ## Note
 Requests on remote configuration files are limited by [Github rate limit](https://developer.github.com/v3/rate_limit/).
